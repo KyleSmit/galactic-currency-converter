@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ussd
+    username: postgres
+    password: padmin
+
+system:
+  app:
+    messageSource: LOCAL
+    unitSource: ENUM
